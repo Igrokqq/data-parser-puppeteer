@@ -1,0 +1,31 @@
+{
+  "name": "parser-testtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.16.0",
+    "@types/user-agents": "1.0.2",
+    "@typescript-eslint/eslint-plugin": "5.59.0",
+    "@typescript-eslint/parser": "5.59.0",
+    "eslint": "8.39.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.1.1",
+    "tsc": "2.0.4",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "commander": "10.0.1",
+    "puppeteer": "19.11.0",
+    "user-agents": "1.0.1359"
+  }
+}
